@@ -1,5 +1,8 @@
 # Handwritten digit recognition GUI
-Handwritten digit recognition GUI in Python
+Handwritten digit recognition GUI in Python composed of two parts.
+
+
+![Part 1](painting.gif) ![Part 1](painting.gif)
 
 ## Dependencies
 * python 3.5
