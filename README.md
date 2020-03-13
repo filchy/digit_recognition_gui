@@ -9,5 +9,4 @@ Handwritten digit recognition GUI in Python composed of two parts.
 * pyqt5
 
 ## Info
-This project was used for [competition](http://www.soc.cz/). I was trying to explain by this simple app how Convolutional neural networks work. I used 3 models. Two was pretrained and one was created by my own (**filchy**). Thi model was 50th in kaggle kannada mnist competition. For any questions send me message.
-chyfil
+This project was used for [SPA (Students Professional Activities)](http://www.soc.cz/). I was trying to explain by this simple app how Convolutional neural networks work. I used 3 models of which one was created by (**filchy**). This model was placed 50th out of 1300th contestants in the [Kannada MNIST Competiotion](https://www.kaggle.com/c/Kannada-MNIST) competition.
