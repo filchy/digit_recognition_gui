@@ -1,6 +1,22 @@
 # Handwritten digit recognition GUI
 Handwritten digit recognition GUI in Python composed of two parts.
 
+## Process
+- [ ] Train models
+- [ ] Start application
+
+### Train models
+- python filchy_model.py
+- python mobilenet_model.py
+- python vgg16_model.py
+
+### Train models
+- python main.py
+
+### Results
+- [x] Trained models
+- [x] Started application
+
 ## Dependencies
 * python 3.5
 * cv2
