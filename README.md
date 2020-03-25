@@ -13,7 +13,7 @@ Handwritten digit recognition GUI in Python composed of two parts.
 ##### Run app
 - python main.py
 
-### Results
+##### Results
 - [x] Trained models
 - [x] Started application
 
