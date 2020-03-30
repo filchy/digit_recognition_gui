@@ -26,7 +26,7 @@ Handwritten digit recognition GUI in Python composed of two parts.
 #### Main menu
 ![](show_imgs/startmenu.png)
 #### Test 1
-![](show_imgs/test12.png)
+![](show_imgs/test13.png)
 #### Test 2
 ![](show_imgs/test22.png)
 #### Test 3
