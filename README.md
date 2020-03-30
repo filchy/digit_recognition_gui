@@ -2,6 +2,7 @@
 Handwritten digit recognition GUI in Python composed of two parts.
 
 ![](show_imgs/startmenu.png)
+![](show_imgs/test11.png)
 ## Process
 - [ ] Train models
 - [ ] Start application
