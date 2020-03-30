@@ -32,4 +32,4 @@ Handwritten digit recognition GUI in Python composed of two parts.
 #### Test 3
 ![](show_imgs/test33.png)
 ## Info
-This project was used for [SPA (Students Professional Activities)](http://www.soc.cz/). I was trying to explain by this simple app how Convolutional neural networks work. I used 3 models of which one was created by me (**filchy**). This model was placed 60th out of 1300th contestants in the [competition](https://www.kaggle.com/c/Kannada-MNIST).
+This project was used for [SPA (Students Professional Activities)](http://www.soc.cz/). I was trying to explain by this simple app how Convolutional neural networks work. I used 3 models of which one was created by me (**filchy model**). This model was placed 60th out of 1300th contestants in the [competition](https://www.kaggle.com/c/Kannada-MNIST).
