@@ -46,7 +46,7 @@ class Test3(object):
         imagePath, _ = QtWidgets.QFileDialog.getOpenFileName()
 
         if imagePath != "":
-            path = "." + imagePath[45:]
+            path = "." + imagePath[29:]
             img_to_process = cv2.imread(path)
 
             img = find_roi(img_to_process)
