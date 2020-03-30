@@ -42,19 +42,30 @@ class Test3(object):
 
         self.menuLoad_img.triggered.connect(self.load_and_predict)
 
+    def find_path(self, label):
+        slovo = ""
+        reversed_slovo = ""
+        for i in range(len(label)):
+            i += 1
+            if label[-i] == "/":
+                break
+            slovo = slovo + label[-i]
+        reversed_slovo = "".join(reversed(slovo))
+        final_name = "dependencies/test_imgs/" + reversed_slovo
+        return final_name
+
     def load_and_predict(self):
         imagePath, _ = QtWidgets.QFileDialog.getOpenFileName()
 
         if imagePath != "":
-            path = "." + imagePath[29:]
+            path = self.find_path(imagePath)
             img_to_process = cv2.imread(path)
-
-            img = find_roi(img_to_process)
-
+            img = cv2.resize(img_to_process, (390, 293))
+            img = find_roi(img)
             roi_img_predict(img)
 
             self.final_img.setPixmap(QtGui.QPixmap("./dependencies/images/predict3.jpg"))
-            
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "test3-gui"))
