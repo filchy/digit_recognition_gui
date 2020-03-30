@@ -26,5 +26,7 @@ Handwritten digit recognition GUI in Python composed of two parts.
 ![](show_imgs/startmenu.png)
 #### Test 1
 ![](show_imgs/test11.png)
+#### Test 2
+![](show_imgs/test22.png)
 ## Info
 This project was used for [SPA (Students Professional Activities)](http://www.soc.cz/). I was trying to explain by this simple app how Convolutional neural networks work. I used 3 models of which one was created by (**filchy**). This model was placed 60th out of 1300th contestants in the [competition](https://www.kaggle.com/c/Kannada-MNIST).
