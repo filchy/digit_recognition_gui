@@ -3,10 +3,10 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, BatchNormalization, Dr
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import ReduceLROnPlateau
 
-from load_data import load
+from load_data import tensor_load
 
 
-X_train1, X_test1, y_train1, y_test1 = load()
+X_train1, X_test1, y_train1, y_test1 = tensor_load()
 
 model = Sequential()
 
