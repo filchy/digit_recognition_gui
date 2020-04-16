@@ -1,5 +1,5 @@
 # Handwritten digit recognition GUI
-Handwritten digit recognition GUI in Python composed of two parts.
+Handwritten digit recognition GUI in Python composed of three parts.
 ## Process
 - [ ] Train models
 - [ ] Start application
