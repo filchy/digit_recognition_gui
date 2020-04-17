@@ -6,9 +6,9 @@ from tensorflow.keras.callbacks import ReduceLROnPlateau
 from load_data import tensor_load
 
 
-X_train1, X_test1, y_train1, y_test1 = tensor_load()
-
 if __name__ == "__main__":
+	X_train1, X_test1, y_train1, y_test1 = tensor_load()
+
 	model = Sequential()
 
 	model.add(Conv2D(64, kernel_size=3, padding="same", activation="relu", input_shape=(28,28,1)))
