@@ -17,7 +17,7 @@ Handwritten digit recognition GUI in Python composed of three parts.
 - [x] Started application
 
 ## Dependencies
-* python 3.5
+* python 3.5 >=
 * cv2
 * tensorflow
 * numpy
