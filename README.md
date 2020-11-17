@@ -5,12 +5,12 @@ Handwritten digit recognition GUI in Python composed of three parts.
 - [ ] Start application
 
 ##### Train models
-- python filchy_model.py
-- python mobilenet_model.py
-- python vgg16_model.py
+- `python filchy_model.py`
+- `python mobilenet_model.py`
+- `python vgg16_model.py`
 
 ##### Run app
-- python main.py
+- `python main.py`
 
 ##### Results
 - [x] Trained models
